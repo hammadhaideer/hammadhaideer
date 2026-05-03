@@ -18,11 +18,9 @@ Before the master's I fine-tuned BERT for production NLP at **Bytewise** and bui
 
 ### Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+**Engineering:** Python · PyTorch · TensorFlow · Hugging Face · NumPy · OpenCV · FAISS · Docker · FastAPI · GitHub Actions · Linux · Git  
+**Research:** DINOv2 · CLIP · SAM · LoRA · PEFT · PatchCore · EfficientAD · WinCLIP · AnomalyCLIP · UniVAD · MVTec-AD · MVTec-LOCO · VisA  
+**Data:** SQL · MongoDB · AWS S3
 
 **Research:** DINOv2 | CLIP | SAM | LoRA | PEFT | PatchCore | EfficientAD | WinCLIP | MVTec-AD | VisA
 
