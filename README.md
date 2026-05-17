@@ -26,6 +26,6 @@ Before the master's I fine-tuned BERT for production NLP at **Bytewise** and bui
 
 ### Open to
 
-- Research internship **Summer 2026**
+- Applied ML projects and short-term consulting collaboration
 - Paper co-authorship in VAD, continual learning, or PEFT
 - Just a good conversation about foundation models
