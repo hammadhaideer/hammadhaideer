@@ -1,4 +1,7 @@
-<h1 align="center">Hammad Ali Haider</h1>
+<p align="center">
+  <img src="https://gitascii.com/api/hammadhaideer?widgets=premium-ascii-profile-card" alt="Hammad Ali Haider GitAscii profile card" width="100%" />
+</p>
+
 <p align="center">
   Visual Anomaly Detection · Foundation Models · Parameter-Efficient Adaptation · Industrial Inspection
 </p>
