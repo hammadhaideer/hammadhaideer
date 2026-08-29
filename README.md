@@ -1,31 +1,59 @@
-<h1 align="center">Hey, I'm Hammad 👋</h1>
+<h1 align="center">Hammad Ali Haider</h1>
 <p align="center">
-  M.S. Computer Science · Xinjiang University, China &nbsp;|&nbsp; Visual Anomaly Detection · PEFT · Foundation Models
+  Visual Anomaly Detection · Foundation Models · Parameter-Efficient Adaptation · Industrial Inspection
 </p>
 <p align="center">
-  <a href="https://linkedin.com/in/hammadhaideer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://medium.com/@hammadhaideerr"><img src="https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white" /></a>
-  <a href="mailto:hammadhaideerr@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  MSc Researcher, Xinjiang University · Ürümqi, China
+</p>
+<p align="center">
+  <a href="https://linkedin.com/in/hammadhaideer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:hammadhaideerr@stu.xju.edu.cn"><img src="https://img.shields.io/badge/Academic_Email-444444?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-I'm a Pakistani CS researcher based in Ürümqi, China, doing my master's at Xinjiang University. My research is in **visual anomaly detection** — teaching models to spot defects and anomalies in images across industrial, logical, and medical domains.
+## Research focus
 
-Right now I'm combining **continual learning** and **parameter-efficient fine-tuning** (LoRA, adapters, visual prompts) on vision foundation models like DINOv2 and CLIP. The goal is models that keep adapting to new domains without forgetting what they already know. I have a first-author paper under review (2026).
+I am an MSc researcher in Computer Science and Technology at Xinjiang University, supervised by **Panpan Zheng**.
 
-Before the master's I fine-tuned BERT for production NLP at **Bytewise**, and built an end-to-end AI platform as my final-year project that earned a 4.0/4.0 — which I'm still pretty happy about.
+My main research area is **visual anomaly detection**, with a focus on foundation models and parameter-efficient adaptation for industrial inspection under distribution shift. I work with **CLIP, DINOv2, SAM, LoRA, adapters, visual prompts, continual learning, and test-time adaptation** across industrial, logical, and medical anomaly-detection settings.
 
-### Featured project
-- **[ai-booking-agent](https://github.com/hammadhaideer/ai-booking-agent)** — a 24/7 AI receptionist (n8n + Google Gemini) that answers questions, captures leads, and books appointments into a database. Live-tested, with a demo video and a v1.0.0 release.
+I also work on time-series anomaly detection with time-series foundation models as a secondary part of my MSc research.
 
-### Stack
-- **Engineering:** Python · PyTorch · TensorFlow · Hugging Face · NumPy · OpenCV · FAISS · Docker · FastAPI · GitHub Actions · Linux · Git
-- **Research:** DINOv2 · CLIP · SAM · LoRA · PEFT · PatchCore · EfficientAD · WinCLIP · AnomalyCLIP · UniVAD · MVTec-AD · MVTec-LOCO · VisA
-- **Data:** SQL · MongoDB · AWS S3
+**First-author paper under review (2026)** in visual anomaly detection.
 
-### Currently
-Reproducing CLIP-based anomaly-detection baselines (WinCLIP, APRIL-GAN, AnomalyCLIP, AdaCLIP, AA-CLIP) and shipping a series of agentic-AI systems — a new build every few days.
+## Selected public research work
 
-### Open to
-- Applied ML projects and short-term consulting
-- Paper co-authorship in visual anomaly detection, continual learning, or PEFT
-- A good conversation about foundation models
+| Project | Scope | Reproduction evidence |
+|---|---|---|
+| **[AF-CLIP Reproduced](https://github.com/hammadhaideer/af-clip-reproduced)** | Zero-shot image and pixel anomaly detection across six industrial benchmarks | Five paper-reported benchmarks match the published results at one-decimal precision; MVTec-LOCO added as a cross-dataset extension |
+| **[APRIL-GAN Reproduced](https://github.com/hammadhaideer/april-gan-reproduced)** | Official zero-shot protocol on MVTec-AD and VisA | All seven aggregate metrics reproduced; maximum absolute paper delta is 0.5 percentage points |
+| **[AnomalyCLIP Reproduced](https://github.com/hammadhaideer/anomalyclip-reproduced)** | Zero-shot industrial anomaly detection on MVTec-AD and VisA | Paper-compatible final-layer evaluation with sanitized logs, aggregate summaries, source provenance, and repository verification |
+| **[WinCLIP Reproduced](https://github.com/hammadhaideer/winclip-reproduced)** | Zero-shot anomaly classification and segmentation on MVTec-AD and VisA | Reference results reproduced and diagnostic implementation differences documented separately |
+
+These repositories are independent reproduction and evaluation work. Upstream methods, source code, checkpoints, and datasets remain attributed to their original authors and licenses.
+
+## How I structure research code
+
+For public reproduction work, I try to keep the evidence inspectable:
+
+- pin upstream source revisions and checkpoint provenance where possible;
+- keep paper-compatible results separate from diagnostic experiments;
+- preserve sanitized raw logs and machine-readable summaries;
+- publish environment, run, parsing, and verification instructions;
+- document deviations instead of hiding failed or mismatched implementation paths.
+
+## Current engineering focus
+
+My research stack has been mostly Python-side. I am now moving reproduced anomaly-detection models toward **C++ and OpenCV deployment**, followed by **ONNX and TensorRT inference, INT8 quantization, and measured latency comparisons**. The deployment work will be published only after the measurements are complete.
+
+## Technical stack
+
+**Research:** Visual Anomaly Detection · CLIP · DINOv2 · SAM · LoRA · PEFT · Continual Learning · Test-Time Adaptation · Domain Shift
+
+**Engineering:** Python · PyTorch · OpenCV · C/C++ · Hugging Face · NumPy · Docker · FastAPI · GitHub Actions · Linux · Git
+
+**Benchmarks:** MVTec-AD · MVTec-LOCO · VisA · BTAD · DAGM · DTD-Synthetic
+
+## Contact
+
+- Academic email: [hammadhaideerr@stu.xju.edu.cn](mailto:hammadhaideerr@stu.xju.edu.cn)
+- LinkedIn: [linkedin.com/in/hammadhaideer](https://linkedin.com/in/hammadhaideer)
