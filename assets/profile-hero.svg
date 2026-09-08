@@ -1,23 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
   <title id="title">Hammad Ali Haider — AI Engineer and M.S. Computer Science Researcher</title>
-  <desc id="desc">Professional GitHub profile banner.</desc>
-  <rect width="1200" height="330" rx="22" fill="#0F1720"/>
-  <rect x="24" y="24" width="1152" height="282" rx="16" fill="#141F29" stroke="#34424E"/>
+  <desc id="desc">Professional GitHub profile banner with an engineering and research systems diagram.</desc>
+
+  <rect width="1200" height="340" rx="20" fill="#0C1116"/>
+  <rect x="26" y="26" width="1148" height="288" rx="14" fill="#11181F" stroke="#2C3741"/>
 
   <g font-family="Arial,Helvetica,sans-serif">
-    <rect x="70" y="58" width="72" height="4" rx="2" fill="#6F8495"/>
-    <text x="70" y="123" fill="#F5F7F8" font-size="50" font-weight="700">Hammad Ali Haider</text>
-    <text x="72" y="166" fill="#CBD2D8" font-size="24" font-weight="500">AI Engineer · M.S. Computer Science Researcher</text>
-    <text x="72" y="211" fill="#A6B3BD" font-size="19">Computer Vision · Foundation Models · Time-Series Learning</text>
-    <text x="72" y="244" fill="#929FA9" font-size="19">Applied AI · Reproducible Evaluation · Efficient Learning</text>
-    <line x1="70" y1="276" x2="610" y2="276" stroke="#40515F" stroke-width="2"/>
-    <text x="72" y="303" fill="#7F8C96" font-size="14" letter-spacing="1">ENGINEERING SYSTEMS · REPRODUCIBLE RESEARCH</text>
+    <text x="72" y="72" fill="#B59A6A" font-size="13" font-weight="700" letter-spacing="2">AI ENGINEERING / RESEARCH</text>
+    <text x="70" y="132" fill="#F3F0E8" font-size="50" font-weight="700">Hammad Ali Haider</text>
+    <text x="72" y="174" fill="#C8CED2" font-size="24">AI Engineer · M.S. Computer Science Researcher</text>
+    <text x="72" y="222" fill="#97A5B0" font-size="18">Computer Vision · Foundation Models · Time-Series Learning</text>
+    <text x="72" y="254" fill="#7F8E99" font-size="18">Applied AI · Reproducible Evaluation · Efficient Learning</text>
+    <line x1="72" y1="284" x2="620" y2="284" stroke="#37434D" stroke-width="1.5"/>
+    <text x="72" y="307" fill="#74818B" font-size="13" letter-spacing="1.2">BUILD · MEASURE · VERIFY · PUBLISH</text>
 
-    <rect x="810" y="72" width="300" height="172" rx="14" fill="#182530" stroke="#34424E"/>
-    <text x="840" y="108" fill="#B9C4CC" font-size="14" font-weight="700">FOCUS</text>
-    <line x1="840" y1="122" x2="1080" y2="122" stroke="#3A4A57"/>
-    <text x="840" y="153" fill="#D8DEE3" font-size="16">Computer Vision</text>
-    <text x="840" y="183" fill="#D8DEE3" font-size="16">Foundation Models</text>
-    <text x="840" y="213" fill="#D8DEE3" font-size="16">Time-Series Learning</text>
+    <g transform="translate(760,60)">
+      <rect x="0" y="0" width="346" height="218" rx="12" fill="#0F151B" stroke="#313D47"/>
+      <text x="22" y="30" fill="#8E9AA3" font-size="12" font-weight="700" letter-spacing="1.5">WORKING MAP</text>
+
+      <line x1="173" y1="74" x2="86" y2="126" stroke="#50606C" stroke-width="1.5"/>
+      <line x1="173" y1="74" x2="173" y2="126" stroke="#50606C" stroke-width="1.5"/>
+      <line x1="173" y1="74" x2="260" y2="126" stroke="#50606C" stroke-width="1.5"/>
+      <line x1="86" y1="151" x2="173" y2="188" stroke="#3D4953" stroke-width="1"/>
+      <line x1="173" y1="151" x2="173" y2="188" stroke="#3D4953" stroke-width="1"/>
+      <line x1="260" y1="151" x2="173" y2="188" stroke="#3D4953" stroke-width="1"/>
+
+      <rect x="104" y="50" width="138" height="34" rx="6" fill="#1A242C" stroke="#B59A6A" stroke-opacity="0.75"/>
+      <text x="173" y="72" text-anchor="middle" fill="#E7E2D8" font-size="13" font-weight="700">FOUNDATION MODELS</text>
+
+      <rect x="35" y="124" width="102" height="30" rx="6" fill="#172029" stroke="#536776"/>
+      <text x="86" y="144" text-anchor="middle" fill="#C5CDD3" font-size="12">VISION</text>
+      <rect x="122" y="124" width="102" height="30" rx="6" fill="#172029" stroke="#536776"/>
+      <text x="173" y="144" text-anchor="middle" fill="#C5CDD3" font-size="12">TIME SERIES</text>
+      <rect x="209" y="124" width="102" height="30" rx="6" fill="#172029" stroke="#536776"/>
+      <text x="260" y="144" text-anchor="middle" fill="#C5CDD3" font-size="12">APPLIED AI</text>
+
+      <rect x="111" y="184" width="124" height="28" rx="6" fill="#151D24" stroke="#394650"/>
+      <text x="173" y="203" text-anchor="middle" fill="#8997A1" font-size="11" letter-spacing="0.8">EVALUATION / SYSTEMS</text>
+    </g>
   </g>
 </svg>
