@@ -17,28 +17,28 @@
       <text x="650" y="126">Engineering practice</text>
     </g>
 
-    <g fill="#BEC6CC" font-size="16">
-      <text x="72" y="164">Visual and time-series anomaly detection</text>
-      <text x="72" y="201">Foundation-model adaptation and robustness</text>
-      <text x="72" y="238">Causal / online evaluation</text>
-      <text x="72" y="275">Efficient learning and model compression</text>
+    <g stroke-width="2">
+      <line x1="72" y1="158" x2="88" y2="158" stroke="#B59A6A"/>
+      <line x1="72" y1="195" x2="88" y2="195" stroke="#B59A6A"/>
+      <line x1="72" y1="232" x2="88" y2="232" stroke="#B59A6A"/>
+      <line x1="72" y1="269" x2="88" y2="269" stroke="#B59A6A"/>
 
-      <text x="650" y="164">PyTorch experiments and evaluation pipelines</text>
-      <text x="650" y="201">NLP fine-tuning and inference workflows</text>
-      <text x="650" y="238">AI agents, tool use, and automation</text>
-      <text x="650" y="275">Docker, CI, Flask, MongoDB, GPU debugging</text>
+      <line x1="650" y1="158" x2="666" y2="158" stroke="#71879A"/>
+      <line x1="650" y1="195" x2="666" y2="195" stroke="#71879A"/>
+      <line x1="650" y1="232" x2="666" y2="232" stroke="#71879A"/>
+      <line x1="650" y1="269" x2="666" y2="269" stroke="#71879A"/>
     </g>
 
-    <g stroke-width="2">
-      <line x1="72" y1="158" x2="96" y2="158" stroke="#B59A6A"/>
-      <line x1="72" y1="195" x2="96" y2="195" stroke="#B59A6A"/>
-      <line x1="72" y1="232" x2="96" y2="232" stroke="#B59A6A"/>
-      <line x1="72" y1="269" x2="96" y2="269" stroke="#B59A6A"/>
+    <g fill="#BEC6CC" font-size="16">
+      <text x="102" y="164">Visual and time-series anomaly detection</text>
+      <text x="102" y="201">Foundation-model adaptation and robustness</text>
+      <text x="102" y="238">Causal / online evaluation</text>
+      <text x="102" y="275">Efficient learning and model compression</text>
 
-      <line x1="650" y1="158" x2="674" y2="158" stroke="#71879A"/>
-      <line x1="650" y1="195" x2="674" y2="195" stroke="#71879A"/>
-      <line x1="650" y1="232" x2="674" y2="232" stroke="#71879A"/>
-      <line x1="650" y1="269" x2="674" y2="269" stroke="#71879A"/>
+      <text x="680" y="164">PyTorch experiments and evaluation pipelines</text>
+      <text x="680" y="201">NLP fine-tuning and inference workflows</text>
+      <text x="680" y="238">AI agents, tool use, and automation</text>
+      <text x="680" y="275">Docker, CI, Flask, MongoDB, GPU debugging</text>
     </g>
 
     <text x="72" y="307" fill="#707E88" font-size="12">evidence · evaluation · reproducibility</text>
