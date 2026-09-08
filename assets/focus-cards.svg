@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+  <title id="title">Research and engineering focus</title>
+  <desc id="desc">Two visual cards showing Hammad's research and engineering areas.</desc>
+  <defs>
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="1" stop-color="#3b0764"/></linearGradient>
+    <linearGradient id="line1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="line2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+  </defs>
+  <rect width="1200" height="370" rx="26" fill="#070b14"/>
+  <rect x="36" y="35" width="548" height="300" rx="24" fill="url(#card1)" stroke="#1d4ed8" stroke-opacity="0.55"/>
+  <rect x="616" y="35" width="548" height="300" rx="24" fill="url(#card2)" stroke="#7c3aed" stroke-opacity="0.55"/>
+  <rect x="70" y="70" width="105" height="5" rx="3" fill="url(#line1)"/>
+  <rect x="650" y="70" width="105" height="5" rx="3" fill="url(#line2)"/>
+  <text x="70" y="112" fill="#e0f2fe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">RESEARCH</text>
+  <text x="650" y="112" fill="#f3e8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">ENGINEERING</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" fill="#cbd5e1">
+    <circle cx="78" cy="153" r="5" fill="#38bdf8"/><text x="96" y="160">Visual anomaly detection</text>
+    <circle cx="78" cy="193" r="5" fill="#22d3ee"/><text x="96" y="200">Causal time-series anomaly detection</text>
+    <circle cx="78" cy="233" r="5" fill="#60a5fa"/><text x="96" y="240">Foundation-model adaptation</text>
+    <circle cx="78" cy="273" r="5" fill="#818cf8"/><text x="96" y="280">Robust and test-time adaptation</text>
+    <circle cx="78" cy="313" r="5" fill="#a5b4fc"/><text x="96" y="320">Efficient learning and model compression</text>
+
+    <circle cx="658" cy="153" r="5" fill="#8b5cf6"/><text x="676" y="160">PyTorch experimentation and evaluation</text>
+    <circle cx="658" cy="193" r="5" fill="#a855f7"/><text x="676" y="200">NLP fine-tuning and inference workflows</text>
+    <circle cx="658" cy="233" r="5" fill="#c084fc"/><text x="676" y="240">AI agents and tool-based automation</text>
+    <circle cx="658" cy="273" r="5" fill="#ec4899"/><text x="676" y="280">Docker, CI, Flask, MongoDB</text>
+    <circle cx="658" cy="313" r="5" fill="#f472b6"/><text x="676" y="320">Reproducible GPU and dependency debugging</text>
+  </g>
+</svg>
