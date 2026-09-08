@@ -1,61 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
   <title id="title">Technical stack</title>
-  <desc id="desc">Professional board of verified technical skills.</desc>
-  <rect width="1200" height="410" rx="24" fill="#0D1724"/>
-  <text x="50" y="58" fill="#F3F6F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">TECHNICAL STACK</text>
-  <text x="50" y="87" fill="#8E9AA5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Verified tools used across research and applied AI work</text>
+  <desc id="desc">Verified technical skills grouped by area.</desc>
+  <rect width="1200" height="470" rx="22" fill="#0F1720"/>
+  <text x="50" y="56" fill="#F4F6F8" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700">TECHNICAL STACK</text>
+  <text x="50" y="84" fill="#94A0AA" font-family="Arial,Helvetica,sans-serif" font-size="15">Tools used across research and applied AI work</text>
 
-  <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <rect x="50" y="112" width="525" height="112" rx="16" fill="#141F2B" stroke="#304150"/>
-    <text x="75" y="145" fill="#BFC9D2" font-size="16" font-weight="700" letter-spacing="1">ML & COMPUTER VISION</text>
-    <g font-size="15" fill="#D9E0E6">
-      <rect x="75" y="163" width="92" height="34" rx="8" fill="#22303D"/><text x="121" y="185" text-anchor="middle">PyTorch</text>
-      <rect x="178" y="163" width="105" height="34" rx="8" fill="#22303D"/><text x="230" y="185" text-anchor="middle">TensorFlow</text>
-      <rect x="294" y="163" width="145" height="34" rx="8" fill="#22303D"/><text x="366" y="185" text-anchor="middle">Hugging Face</text>
-      <rect x="450" y="163" width="100" height="34" rx="8" fill="#22303D"/><text x="500" y="185" text-anchor="middle">OpenCV</text>
-      <rect x="75" y="201" width="78" height="34" rx="8" fill="#1B2A37"/><text x="114" y="223" text-anchor="middle">CLIP</text>
-      <rect x="164" y="201" width="120" height="34" rx="8" fill="#1B2A37"/><text x="224" y="223" text-anchor="middle">Vision Transformers</text>
-      <rect x="295" y="201" width="125" height="34" rx="8" fill="#1B2A37"/><text x="357" y="223" text-anchor="middle">scikit-learn</text>
-      <rect x="431" y="201" width="119" height="34" rx="8" fill="#1B2A37"/><text x="490" y="223" text-anchor="middle">Evaluation</text>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <rect x="50" y="110" width="525" height="150" rx="14" fill="#16212B" stroke="#34424E"/>
+    <text x="75" y="142" fill="#C7D0D7" font-size="16" font-weight="700">ML &amp; COMPUTER VISION</text>
+    <g font-size="14" fill="#E3E8EC">
+      <rect x="75" y="160" width="92" height="34" rx="7" fill="#23313C"/><text x="121" y="182" text-anchor="middle">PyTorch</text>
+      <rect x="178" y="160" width="105" height="34" rx="7" fill="#23313C"/><text x="230" y="182" text-anchor="middle">TensorFlow</text>
+      <rect x="294" y="160" width="145" height="34" rx="7" fill="#23313C"/><text x="366" y="182" text-anchor="middle">Hugging Face</text>
+      <rect x="450" y="160" width="100" height="34" rx="7" fill="#23313C"/><text x="500" y="182" text-anchor="middle">OpenCV</text>
+      <rect x="75" y="204" width="78" height="34" rx="7" fill="#1D2A34"/><text x="114" y="226" text-anchor="middle">CLIP</text>
+      <rect x="164" y="204" width="138" height="34" rx="7" fill="#1D2A34"/><text x="233" y="226" text-anchor="middle">Vision Transformers</text>
+      <rect x="313" y="204" width="125" height="34" rx="7" fill="#1D2A34"/><text x="375" y="226" text-anchor="middle">scikit-learn</text>
+      <rect x="449" y="204" width="101" height="34" rx="7" fill="#1D2A34"/><text x="499" y="226" text-anchor="middle">Evaluation</text>
     </g>
 
-    <rect x="625" y="112" width="525" height="112" rx="16" fill="#141F2B" stroke="#304150"/>
-    <text x="650" y="145" fill="#BFC9D2" font-size="16" font-weight="700" letter-spacing="1">PROGRAMMING & SYSTEMS</text>
-    <g font-size="15" fill="#D9E0E6">
-      <rect x="650" y="163" width="88" height="34" rx="8" fill="#22303D"/><text x="694" y="185" text-anchor="middle">Python</text>
-      <rect x="749" y="163" width="82" height="34" rx="8" fill="#22303D"/><text x="790" y="185" text-anchor="middle">C/C++</text>
-      <rect x="842" y="163" width="72" height="34" rx="8" fill="#22303D"/><text x="878" y="185" text-anchor="middle">SQL</text>
-      <rect x="925" y="163" width="76" height="34" rx="8" fill="#22303D"/><text x="963" y="185" text-anchor="middle">Bash</text>
-      <rect x="1012" y="163" width="110" height="34" rx="8" fill="#22303D"/><text x="1067" y="185" text-anchor="middle">Linux</text>
-      <rect x="650" y="201" width="92" height="34" rx="8" fill="#1B2A37"/><text x="696" y="223" text-anchor="middle">Docker</text>
-      <rect x="753" y="201" width="74" height="34" rx="8" fill="#1B2A37"/><text x="790" y="223" text-anchor="middle">Git</text>
-      <rect x="838" y="201" width="138" height="34" rx="8" fill="#1B2A37"/><text x="907" y="223" text-anchor="middle">GitHub Actions</text>
-      <rect x="987" y="201" width="135" height="34" rx="8" fill="#1B2A37"/><text x="1054" y="223" text-anchor="middle">Jupyter</text>
+    <rect x="625" y="110" width="525" height="150" rx="14" fill="#16212B" stroke="#34424E"/>
+    <text x="650" y="142" fill="#C7D0D7" font-size="16" font-weight="700">PROGRAMMING &amp; SYSTEMS</text>
+    <g font-size="14" fill="#E3E8EC">
+      <rect x="650" y="160" width="88" height="34" rx="7" fill="#23313C"/><text x="694" y="182" text-anchor="middle">Python</text>
+      <rect x="749" y="160" width="82" height="34" rx="7" fill="#23313C"/><text x="790" y="182" text-anchor="middle">C/C++</text>
+      <rect x="842" y="160" width="72" height="34" rx="7" fill="#23313C"/><text x="878" y="182" text-anchor="middle">SQL</text>
+      <rect x="925" y="160" width="76" height="34" rx="7" fill="#23313C"/><text x="963" y="182" text-anchor="middle">Bash</text>
+      <rect x="1012" y="160" width="110" height="34" rx="7" fill="#23313C"/><text x="1067" y="182" text-anchor="middle">Linux</text>
+      <rect x="650" y="204" width="92" height="34" rx="7" fill="#1D2A34"/><text x="696" y="226" text-anchor="middle">Docker</text>
+      <rect x="753" y="204" width="74" height="34" rx="7" fill="#1D2A34"/><text x="790" y="226" text-anchor="middle">Git</text>
+      <rect x="838" y="204" width="138" height="34" rx="7" fill="#1D2A34"/><text x="907" y="226" text-anchor="middle">GitHub Actions</text>
+      <rect x="987" y="204" width="135" height="34" rx="7" fill="#1D2A34"/><text x="1054" y="226" text-anchor="middle">Jupyter</text>
     </g>
 
-    <rect x="50" y="252" width="525" height="112" rx="16" fill="#141F2B" stroke="#304150"/>
-    <text x="75" y="285" fill="#BFC9D2" font-size="16" font-weight="700" letter-spacing="1">NLP & APPLIED AI</text>
-    <g font-size="15" fill="#D9E0E6">
-      <rect x="75" y="303" width="82" height="34" rx="8" fill="#22303D"/><text x="116" y="325" text-anchor="middle">BERT</text>
-      <rect x="168" y="303" width="128" height="34" rx="8" fill="#22303D"/><text x="232" y="325" text-anchor="middle">Google Gemini</text>
-      <rect x="307" y="303" width="98" height="34" rx="8" fill="#22303D"/><text x="356" y="325" text-anchor="middle">AI Agents</text>
-      <rect x="416" y="303" width="68" height="34" rx="8" fill="#22303D"/><text x="450" y="325" text-anchor="middle">n8n</text>
-      <rect x="75" y="341" width="152" height="34" rx="8" fill="#1B2A37"/><text x="151" y="363" text-anchor="middle">Text Classification</text>
-      <rect x="238" y="341" width="132" height="34" rx="8" fill="#1B2A37"/><text x="304" y="363" text-anchor="middle">Sentiment Analysis</text>
-      <rect x="381" y="341" width="169" height="34" rx="8" fill="#1B2A37"/><text x="465" y="363" text-anchor="middle">Workflow Automation</text>
+    <rect x="50" y="285" width="525" height="155" rx="14" fill="#16212B" stroke="#34424E"/>
+    <text x="75" y="317" fill="#C7D0D7" font-size="16" font-weight="700">NLP &amp; APPLIED AI</text>
+    <g font-size="14" fill="#E3E8EC">
+      <rect x="75" y="335" width="82" height="34" rx="7" fill="#23313C"/><text x="116" y="357" text-anchor="middle">BERT</text>
+      <rect x="168" y="335" width="128" height="34" rx="7" fill="#23313C"/><text x="232" y="357" text-anchor="middle">Google Gemini</text>
+      <rect x="307" y="335" width="98" height="34" rx="7" fill="#23313C"/><text x="356" y="357" text-anchor="middle">AI Agents</text>
+      <rect x="416" y="335" width="68" height="34" rx="7" fill="#23313C"/><text x="450" y="357" text-anchor="middle">n8n</text>
+      <rect x="75" y="379" width="152" height="34" rx="7" fill="#1D2A34"/><text x="151" y="401" text-anchor="middle">Text Classification</text>
+      <rect x="238" y="379" width="132" height="34" rx="7" fill="#1D2A34"/><text x="304" y="401" text-anchor="middle">Sentiment Analysis</text>
+      <rect x="381" y="379" width="169" height="34" rx="7" fill="#1D2A34"/><text x="465" y="401" text-anchor="middle">Workflow Automation</text>
     </g>
 
-    <rect x="625" y="252" width="525" height="112" rx="16" fill="#141F2B" stroke="#304150"/>
-    <text x="650" y="285" fill="#BFC9D2" font-size="16" font-weight="700" letter-spacing="1">APPLICATION & RESEARCH TOOLS</text>
-    <g font-size="15" fill="#D9E0E6">
-      <rect x="650" y="303" width="88" height="34" rx="8" fill="#22303D"/><text x="694" y="325" text-anchor="middle">Flask</text>
-      <rect x="749" y="303" width="108" height="34" rx="8" fill="#22303D"/><text x="803" y="325" text-anchor="middle">MongoDB</text>
-      <rect x="868" y="303" width="90" height="34" rx="8" fill="#22303D"/><text x="913" y="325" text-anchor="middle">AWS S3</text>
-      <rect x="969" y="303" width="82" height="34" rx="8" fill="#22303D"/><text x="1010" y="325" text-anchor="middle">LaTeX</text>
-      <rect x="650" y="341" width="168" height="34" rx="8" fill="#1B2A37"/><text x="734" y="363" text-anchor="middle">Anomaly Detection</text>
-      <rect x="829" y="341" width="150" height="34" rx="8" fill="#1B2A37"/><text x="904" y="363" text-anchor="middle">Model Evaluation</text>
-      <rect x="990" y="341" width="132" height="34" rx="8" fill="#1B2A37"/><text x="1056" y="363" text-anchor="middle">Reproducibility</text>
+    <rect x="625" y="285" width="525" height="155" rx="14" fill="#16212B" stroke="#34424E"/>
+    <text x="650" y="317" fill="#C7D0D7" font-size="16" font-weight="700">APPLICATION &amp; RESEARCH TOOLS</text>
+    <g font-size="14" fill="#E3E8EC">
+      <rect x="650" y="335" width="88" height="34" rx="7" fill="#23313C"/><text x="694" y="357" text-anchor="middle">Flask</text>
+      <rect x="749" y="335" width="108" height="34" rx="7" fill="#23313C"/><text x="803" y="357" text-anchor="middle">MongoDB</text>
+      <rect x="868" y="335" width="90" height="34" rx="7" fill="#23313C"/><text x="913" y="357" text-anchor="middle">AWS S3</text>
+      <rect x="969" y="335" width="82" height="34" rx="7" fill="#23313C"/><text x="1010" y="357" text-anchor="middle">LaTeX</text>
+      <rect x="650" y="379" width="168" height="34" rx="7" fill="#1D2A34"/><text x="734" y="401" text-anchor="middle">Anomaly Detection</text>
+      <rect x="829" y="379" width="150" height="34" rx="7" fill="#1D2A34"/><text x="904" y="401" text-anchor="middle">Model Evaluation</text>
+      <rect x="990" y="379" width="132" height="34" rx="7" fill="#1D2A34"/><text x="1056" y="401" text-anchor="middle">Reproducibility</text>
     </g>
   </g>
-  <line x1="50" y1="390" x2="1150" y2="390" stroke="#334554"/>
 </svg>
