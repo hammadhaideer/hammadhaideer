@@ -1,60 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
   <title id="title">Technical stack</title>
-  <desc id="desc">Verified technical skills grouped by area.</desc>
-  <rect width="1200" height="470" rx="22" fill="#0F1720"/>
-  <text x="50" y="56" fill="#F4F6F8" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700">TECHNICAL STACK</text>
-  <text x="50" y="84" fill="#94A0AA" font-family="Arial,Helvetica,sans-serif" font-size="15">Tools used across research and applied AI work</text>
+  <desc id="desc">Verified technical skills grouped into four professional panels.</desc>
+  <rect width="1200" height="430" rx="20" fill="#0C1116"/>
 
   <g font-family="Arial,Helvetica,sans-serif">
-    <rect x="50" y="110" width="525" height="150" rx="14" fill="#16212B" stroke="#34424E"/>
-    <text x="75" y="142" fill="#C7D0D7" font-size="16" font-weight="700">ML &amp; COMPUTER VISION</text>
-    <g font-size="14" fill="#E3E8EC">
-      <rect x="75" y="160" width="92" height="34" rx="7" fill="#23313C"/><text x="121" y="182" text-anchor="middle">PyTorch</text>
-      <rect x="178" y="160" width="105" height="34" rx="7" fill="#23313C"/><text x="230" y="182" text-anchor="middle">TensorFlow</text>
-      <rect x="294" y="160" width="145" height="34" rx="7" fill="#23313C"/><text x="366" y="182" text-anchor="middle">Hugging Face</text>
-      <rect x="450" y="160" width="100" height="34" rx="7" fill="#23313C"/><text x="500" y="182" text-anchor="middle">OpenCV</text>
-      <rect x="75" y="204" width="78" height="34" rx="7" fill="#1D2A34"/><text x="114" y="226" text-anchor="middle">CLIP</text>
-      <rect x="164" y="204" width="138" height="34" rx="7" fill="#1D2A34"/><text x="233" y="226" text-anchor="middle">Vision Transformers</text>
-      <rect x="313" y="204" width="125" height="34" rx="7" fill="#1D2A34"/><text x="375" y="226" text-anchor="middle">scikit-learn</text>
-      <rect x="449" y="204" width="101" height="34" rx="7" fill="#1D2A34"/><text x="499" y="226" text-anchor="middle">Evaluation</text>
-    </g>
+    <text x="50" y="54" fill="#F1EEE7" font-size="26" font-weight="700">Technical stack</text>
+    <text x="50" y="81" fill="#85939D" font-size="14">Verified tools used in research and applied AI work</text>
+    <line x1="50" y1="98" x2="1150" y2="98" stroke="#2E3942"/>
 
-    <rect x="625" y="110" width="525" height="150" rx="14" fill="#16212B" stroke="#34424E"/>
-    <text x="650" y="142" fill="#C7D0D7" font-size="16" font-weight="700">PROGRAMMING &amp; SYSTEMS</text>
-    <g font-size="14" fill="#E3E8EC">
-      <rect x="650" y="160" width="88" height="34" rx="7" fill="#23313C"/><text x="694" y="182" text-anchor="middle">Python</text>
-      <rect x="749" y="160" width="82" height="34" rx="7" fill="#23313C"/><text x="790" y="182" text-anchor="middle">C/C++</text>
-      <rect x="842" y="160" width="72" height="34" rx="7" fill="#23313C"/><text x="878" y="182" text-anchor="middle">SQL</text>
-      <rect x="925" y="160" width="76" height="34" rx="7" fill="#23313C"/><text x="963" y="182" text-anchor="middle">Bash</text>
-      <rect x="1012" y="160" width="110" height="34" rx="7" fill="#23313C"/><text x="1067" y="182" text-anchor="middle">Linux</text>
-      <rect x="650" y="204" width="92" height="34" rx="7" fill="#1D2A34"/><text x="696" y="226" text-anchor="middle">Docker</text>
-      <rect x="753" y="204" width="74" height="34" rx="7" fill="#1D2A34"/><text x="790" y="226" text-anchor="middle">Git</text>
-      <rect x="838" y="204" width="138" height="34" rx="7" fill="#1D2A34"/><text x="907" y="226" text-anchor="middle">GitHub Actions</text>
-      <rect x="987" y="204" width="135" height="34" rx="7" fill="#1D2A34"/><text x="1054" y="226" text-anchor="middle">Jupyter</text>
-    </g>
+    <rect x="50" y="122" width="525" height="126" rx="12" fill="#11181F" stroke="#2E3942"/>
+    <rect x="625" y="122" width="525" height="126" rx="12" fill="#11181F" stroke="#2E3942"/>
+    <rect x="50" y="273" width="525" height="126" rx="12" fill="#11181F" stroke="#2E3942"/>
+    <rect x="625" y="273" width="525" height="126" rx="12" fill="#11181F" stroke="#2E3942"/>
 
-    <rect x="50" y="285" width="525" height="155" rx="14" fill="#16212B" stroke="#34424E"/>
-    <text x="75" y="317" fill="#C7D0D7" font-size="16" font-weight="700">NLP &amp; APPLIED AI</text>
-    <g font-size="14" fill="#E3E8EC">
-      <rect x="75" y="335" width="82" height="34" rx="7" fill="#23313C"/><text x="116" y="357" text-anchor="middle">BERT</text>
-      <rect x="168" y="335" width="128" height="34" rx="7" fill="#23313C"/><text x="232" y="357" text-anchor="middle">Google Gemini</text>
-      <rect x="307" y="335" width="98" height="34" rx="7" fill="#23313C"/><text x="356" y="357" text-anchor="middle">AI Agents</text>
-      <rect x="416" y="335" width="68" height="34" rx="7" fill="#23313C"/><text x="450" y="357" text-anchor="middle">n8n</text>
-      <rect x="75" y="379" width="152" height="34" rx="7" fill="#1D2A34"/><text x="151" y="401" text-anchor="middle">Text Classification</text>
-      <rect x="238" y="379" width="132" height="34" rx="7" fill="#1D2A34"/><text x="304" y="401" text-anchor="middle">Sentiment Analysis</text>
-      <rect x="381" y="379" width="169" height="34" rx="7" fill="#1D2A34"/><text x="465" y="401" text-anchor="middle">Workflow Automation</text>
-    </g>
+    <text x="76" y="153" fill="#B59A6A" font-size="12" font-weight="700" letter-spacing="1.2">MACHINE LEARNING / VISION</text>
+    <text x="651" y="153" fill="#71879A" font-size="12" font-weight="700" letter-spacing="1.2">PROGRAMMING / SYSTEMS</text>
+    <text x="76" y="304" fill="#B59A6A" font-size="12" font-weight="700" letter-spacing="1.2">NLP / APPLIED AI</text>
+    <text x="651" y="304" fill="#71879A" font-size="12" font-weight="700" letter-spacing="1.2">ENGINEERING / RESEARCH TOOLS</text>
 
-    <rect x="625" y="285" width="525" height="155" rx="14" fill="#16212B" stroke="#34424E"/>
-    <text x="650" y="317" fill="#C7D0D7" font-size="16" font-weight="700">APPLICATION &amp; RESEARCH TOOLS</text>
-    <g font-size="14" fill="#E3E8EC">
-      <rect x="650" y="335" width="88" height="34" rx="7" fill="#23313C"/><text x="694" y="357" text-anchor="middle">Flask</text>
-      <rect x="749" y="335" width="108" height="34" rx="7" fill="#23313C"/><text x="803" y="357" text-anchor="middle">MongoDB</text>
-      <rect x="868" y="335" width="90" height="34" rx="7" fill="#23313C"/><text x="913" y="357" text-anchor="middle">AWS S3</text>
-      <rect x="969" y="335" width="82" height="34" rx="7" fill="#23313C"/><text x="1010" y="357" text-anchor="middle">LaTeX</text>
-      <rect x="650" y="379" width="168" height="34" rx="7" fill="#1D2A34"/><text x="734" y="401" text-anchor="middle">Anomaly Detection</text>
-      <rect x="829" y="379" width="150" height="34" rx="7" fill="#1D2A34"/><text x="904" y="401" text-anchor="middle">Model Evaluation</text>
-      <rect x="990" y="379" width="132" height="34" rx="7" fill="#1D2A34"/><text x="1056" y="401" text-anchor="middle">Reproducibility</text>
+    <g fill="#D4D9DD" font-size="15">
+      <text x="76" y="184">PyTorch · TensorFlow · Hugging Face Transformers</text>
+      <text x="76" y="211">scikit-learn · CLIP · Vision Transformers · OpenCV</text>
+      <text x="76" y="235">image classification · segmentation · anomaly detection</text>
+
+      <text x="651" y="184">Python · C/C++ · SQL · Bash</text>
+      <text x="651" y="211">Linux · Git · GitHub · Jupyter</text>
+      <text x="651" y="235">Docker · GitHub Actions</text>
+
+      <text x="76" y="335">BERT · NLTK · spaCy · text classification</text>
+      <text x="76" y="362">sentiment analysis · NER · Google Gemini</text>
+      <text x="76" y="386">n8n · AI agents · workflow automation</text>
+
+      <text x="651" y="335">Flask · MongoDB Atlas · AWS S3 · LaTeX</text>
+      <text x="651" y="362">model evaluation · experiment automation</text>
+      <text x="651" y="386">checkpoint verification · reproducible environments</text>
     </g>
   </g>
 </svg>
