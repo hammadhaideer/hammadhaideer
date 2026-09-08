@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Hammad Ali Haider — AI Engineer and M.S. Computer Science Researcher</title>
+  <desc id="desc">Professional GitHub profile banner for AI engineering and research.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.48" stop-color="#10264f"/>
+      <stop offset="1" stop-color="#24104f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="330" rx="28" fill="url(#bg)"/>
+  <circle cx="1060" cy="80" r="240" fill="url(#glow2)"/>
+  <circle cx="140" cy="300" r="260" fill="url(#glow1)"/>
+  <g opacity="0.35" stroke="#7dd3fc" stroke-width="1">
+    <path d="M830 45H1120M860 85H1150M810 125H1090M900 165H1170"/>
+    <circle cx="835" cy="45" r="4" fill="#22d3ee"/><circle cx="1115" cy="45" r="4" fill="#8b5cf6"/>
+    <circle cx="865" cy="85" r="4" fill="#38bdf8"/><circle cx="1145" cy="85" r="4" fill="#22d3ee"/>
+    <circle cx="815" cy="125" r="4" fill="#8b5cf6"/><circle cx="1085" cy="125" r="4" fill="#38bdf8"/>
+  </g>
+  <rect x="70" y="58" width="92" height="6" rx="3" fill="url(#accent)"/>
+  <text x="70" y="125" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">Hammad Ali Haider</text>
+  <text x="72" y="170" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="500">AI Engineer  •  M.S. Computer Science Researcher</text>
+  <text x="72" y="216" fill="#8be9fd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Computer Vision  ·  Foundation Models  ·  Time-Series Learning</text>
+  <text x="72" y="250" fill="#c4b5fd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Applied AI  ·  Reproducible Evaluation  ·  Efficient Learning</text>
+  <rect x="70" y="279" width="535" height="2" fill="url(#accent)" opacity="0.85"/>
+  <text x="72" y="309" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="1.4">ENGINEERING SYSTEMS • RESEARCH THAT CAN BE CHECKED</text>
+</svg>
