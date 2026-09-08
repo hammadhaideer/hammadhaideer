@@ -1,35 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Current trajectory</title>
-  <desc id="desc">Visual timeline of research, reproducibility, applied AI, and current publication work.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#17112b"/></linearGradient>
-    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="0.52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
-  </defs>
-  <rect width="1200" height="320" rx="26" fill="url(#bg)"/>
-  <text x="50" y="58" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">CURRENT TRAJECTORY</text>
-  <text x="50" y="87" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Research depth + engineering execution</text>
-  <rect x="95" y="162" width="1010" height="6" rx="3" fill="url(#track)"/>
+  <desc id="desc">Visual timeline of research, reproducibility, applied AI, and publication work.</desc>
+  <rect width="1200" height="320" rx="24" fill="#0D1724"/>
+  <rect x="32" y="32" width="1136" height="256" rx="18" fill="#131E2A" stroke="#304150"/>
+  <text x="58" y="72" fill="#F2F5F7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">CURRENT TRAJECTORY</text>
+  <text x="58" y="100" fill="#8F9BA6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Research depth and engineering execution</text>
+  <line x1="120" y1="168" x2="1080" y2="168" stroke="#4E6476" stroke-width="4" stroke-linecap="round"/>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <circle cx="145" cy="165" r="14" fill="#38bdf8" stroke="#e0f2fe" stroke-width="4"/>
-    <text x="145" y="126" text-anchor="middle" fill="#e0f2fe" font-size="18" font-weight="700">Research</text>
-    <text x="145" y="207" text-anchor="middle" fill="#cbd5e1" font-size="15">Graduate Researcher</text>
-    <text x="145" y="230" text-anchor="middle" fill="#94a3b8" font-size="14">Xinjiang University</text>
+    <circle cx="150" cy="168" r="13" fill="#6B879C" stroke="#D7DEE4" stroke-width="3"/>
+    <text x="150" y="132" text-anchor="middle" fill="#E5E9ED" font-size="18" font-weight="700">Research</text>
+    <text x="150" y="207" text-anchor="middle" fill="#C7D0D8" font-size="15">Graduate Researcher</text>
+    <text x="150" y="229" text-anchor="middle" fill="#8997A3" font-size="14">Xinjiang University</text>
 
-    <circle cx="445" cy="165" r="14" fill="#3b82f6" stroke="#dbeafe" stroke-width="4"/>
-    <text x="445" y="126" text-anchor="middle" fill="#dbeafe" font-size="18" font-weight="700">Reproducibility</text>
-    <text x="445" y="207" text-anchor="middle" fill="#cbd5e1" font-size="15">WinCLIP · AnomalyCLIP</text>
-    <text x="445" y="230" text-anchor="middle" fill="#94a3b8" font-size="14">APRIL-GAN · AF-CLIP</text>
+    <circle cx="450" cy="168" r="13" fill="#60788C" stroke="#D7DEE4" stroke-width="3"/>
+    <text x="450" y="132" text-anchor="middle" fill="#E5E9ED" font-size="18" font-weight="700">Reproducibility</text>
+    <text x="450" y="207" text-anchor="middle" fill="#C7D0D8" font-size="15">WinCLIP · AnomalyCLIP</text>
+    <text x="450" y="229" text-anchor="middle" fill="#8997A3" font-size="14">APRIL-GAN · AF-CLIP</text>
 
-    <circle cx="755" cy="165" r="14" fill="#8b5cf6" stroke="#ede9fe" stroke-width="4"/>
-    <text x="755" y="126" text-anchor="middle" fill="#ede9fe" font-size="18" font-weight="700">Applied AI</text>
-    <text x="755" y="207" text-anchor="middle" fill="#cbd5e1" font-size="15">AI agents · NLP workflows</text>
-    <text x="755" y="230" text-anchor="middle" fill="#94a3b8" font-size="14">Docker · automation · APIs</text>
+    <circle cx="750" cy="168" r="13" fill="#566D80" stroke="#D7DEE4" stroke-width="3"/>
+    <text x="750" y="132" text-anchor="middle" fill="#E5E9ED" font-size="18" font-weight="700">Applied AI</text>
+    <text x="750" y="207" text-anchor="middle" fill="#C7D0D8" font-size="15">AI agents · NLP workflows</text>
+    <text x="750" y="229" text-anchor="middle" fill="#8997A3" font-size="14">Docker · automation · APIs</text>
 
-    <circle cx="1055" cy="165" r="14" fill="#ec4899" stroke="#fce7f3" stroke-width="4"/>
-    <text x="1055" y="126" text-anchor="middle" fill="#fce7f3" font-size="18" font-weight="700">2027 Cycle</text>
-    <text x="1055" y="207" text-anchor="middle" fill="#cbd5e1" font-size="15">AAAI: first-author review</text>
-    <text x="1055" y="230" text-anchor="middle" fill="#94a3b8" font-size="14">ICASSP: first-author work</text>
+    <circle cx="1050" cy="168" r="13" fill="#4C6172" stroke="#D7DEE4" stroke-width="3"/>
+    <text x="1050" y="132" text-anchor="middle" fill="#E5E9ED" font-size="18" font-weight="700">2027 Cycle</text>
+    <text x="1050" y="207" text-anchor="middle" fill="#C7D0D8" font-size="15">AAAI: first-author review</text>
+    <text x="1050" y="229" text-anchor="middle" fill="#8997A3" font-size="14">ICASSP: first-author work</text>
   </g>
-  <text x="600" y="285" text-anchor="middle" fill="#a5b4fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="1.2">BUILD • MEASURE • VERIFY • PUBLISH</text>
+
+  <text x="600" y="267" text-anchor="middle" fill="#83919D" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="1.15">BUILD • MEASURE • VERIFY • PUBLISH</text>
 </svg>
