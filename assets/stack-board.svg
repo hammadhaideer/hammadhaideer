@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Technical stack</title>
+  <desc id="desc">Color-coded board of verified technical skills.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08101f"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  </defs>
+  <rect width="1200" height="390" rx="26" fill="url(#bg)"/>
+  <text x="50" y="58" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">TECHNICAL STACK</text>
+  <text x="50" y="87" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Verified tools and technologies used across research and applied AI work</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600">
+    <rect x="50" y="122" width="140" height="42" rx="21" fill="#1d4ed8"/><text x="120" y="149" text-anchor="middle" fill="#fff">Python</text>
+    <rect x="204" y="122" width="140" height="42" rx="21" fill="#7c3aed"/><text x="274" y="149" text-anchor="middle" fill="#fff">PyTorch</text>
+    <rect x="358" y="122" width="150" height="42" rx="21" fill="#ea580c"/><text x="433" y="149" text-anchor="middle" fill="#fff">TensorFlow</text>
+    <rect x="522" y="122" width="205" height="42" rx="21" fill="#ca8a04"/><text x="624" y="149" text-anchor="middle" fill="#fff">Hugging Face</text>
+    <rect x="741" y="122" width="160" height="42" rx="21" fill="#0891b2"/><text x="821" y="149" text-anchor="middle" fill="#fff">OpenCV</text>
+    <rect x="915" y="122" width="185" height="42" rx="21" fill="#475569"/><text x="1007" y="149" text-anchor="middle" fill="#fff">scikit-learn</text>
+
+    <rect x="50" y="183" width="120" height="42" rx="21" fill="#0f766e"/><text x="110" y="210" text-anchor="middle" fill="#fff">C/C++</text>
+    <rect x="184" y="183" width="110" height="42" rx="21" fill="#334155"/><text x="239" y="210" text-anchor="middle" fill="#fff">SQL</text>
+    <rect x="308" y="183" width="115" height="42" rx="21" fill="#475569"/><text x="365" y="210" text-anchor="middle" fill="#fff">Bash</text>
+    <rect x="437" y="183" width="130" height="42" rx="21" fill="#2563eb"/><text x="502" y="210" text-anchor="middle" fill="#fff">Docker</text>
+    <rect x="581" y="183" width="110" height="42" rx="21" fill="#374151"/><text x="636" y="210" text-anchor="middle" fill="#fff">Git</text>
+    <rect x="705" y="183" width="170" height="42" rx="21" fill="#1f2937"/><text x="790" y="210" text-anchor="middle" fill="#fff">GitHub Actions</text>
+    <rect x="889" y="183" width="115" height="42" rx="21" fill="#374151"/><text x="946" y="210" text-anchor="middle" fill="#fff">Linux</text>
+    <rect x="1018" y="183" width="115" height="42" rx="21" fill="#64748b"/><text x="1075" y="210" text-anchor="middle" fill="#fff">Jupyter</text>
+
+    <rect x="50" y="244" width="120" height="42" rx="21" fill="#111827" stroke="#94a3b8"/><text x="110" y="271" text-anchor="middle" fill="#e2e8f0">Flask</text>
+    <rect x="184" y="244" width="150" height="42" rx="21" fill="#166534"/><text x="259" y="271" text-anchor="middle" fill="#fff">MongoDB</text>
+    <rect x="348" y="244" width="125" height="42" rx="21" fill="#d97706"/><text x="410" y="271" text-anchor="middle" fill="#fff">AWS S3</text>
+    <rect x="487" y="244" width="150" height="42" rx="21" fill="#6d28d9"/><text x="562" y="271" text-anchor="middle" fill="#fff">Google Gemini</text>
+    <rect x="651" y="244" width="105" height="42" rx="21" fill="#dc2626"/><text x="703" y="271" text-anchor="middle" fill="#fff">n8n</text>
+    <rect x="770" y="244" width="125" height="42" rx="21" fill="#0f766e"/><text x="832" y="271" text-anchor="middle" fill="#fff">LaTeX</text>
+    <rect x="909" y="244" width="190" height="42" rx="21" fill="#4338ca"/><text x="1004" y="271" text-anchor="middle" fill="#fff">Vision Transformers</text>
+
+    <rect x="50" y="305" width="110" height="42" rx="21" fill="#0284c7"/><text x="105" y="332" text-anchor="middle" fill="#fff">CLIP</text>
+    <rect x="174" y="305" width="110" height="42" rx="21" fill="#7c3aed"/><text x="229" y="332" text-anchor="middle" fill="#fff">BERT</text>
+    <rect x="298" y="305" width="160" height="42" rx="21" fill="#be123c"/><text x="378" y="332" text-anchor="middle" fill="#fff">AI Agents</text>
+    <rect x="472" y="305" width="210" height="42" rx="21" fill="#0e7490"/><text x="577" y="332" text-anchor="middle" fill="#fff">Anomaly Detection</text>
+    <rect x="696" y="305" width="190" height="42" rx="21" fill="#4f46e5"/><text x="791" y="332" text-anchor="middle" fill="#fff">Model Evaluation</text>
+    <rect x="900" y="305" width="200" height="42" rx="21" fill="#9333ea"/><text x="1000" y="332" text-anchor="middle" fill="#fff">Workflow Automation</text>
+  </g>
+</svg>
