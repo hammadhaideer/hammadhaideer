@@ -1,37 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Current trajectory</title>
-  <desc id="desc">Four-stage research and engineering trajectory.</desc>
-  <rect width="1200" height="340" rx="22" fill="#0F1720"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Research output</title>
+  <desc id="desc">Current graduate research role and first-author 2027 conference work.</desc>
+  <rect width="1200" height="330" rx="20" fill="#0C1116"/>
+
   <g font-family="Arial,Helvetica,sans-serif">
-    <text x="50" y="56" fill="#F3F6F8" font-size="27" font-weight="700">CURRENT TRAJECTORY</text>
-    <text x="50" y="84" fill="#909CA6" font-size="15">Research depth and engineering execution</text>
+    <text x="50" y="55" fill="#F1EEE7" font-size="26" font-weight="700">Research output</text>
+    <text x="50" y="82" fill="#85939D" font-size="14">Current academic work and publication cycle</text>
+    <line x1="50" y1="99" x2="1150" y2="99" stroke="#2E3942"/>
 
-    <g>
-      <rect x="50" y="112" width="250" height="170" rx="14" fill="#16212B" stroke="#34424E"/>
-      <text x="75" y="146" fill="#AEB9C2" font-size="13" font-weight="700">01</text>
-      <text x="75" y="180" fill="#F0F3F5" font-size="20" font-weight="700">Research</text>
-      <text x="75" y="214" fill="#C9D1D8" font-size="15">Graduate Researcher</text>
-      <text x="75" y="239" fill="#8F9BA5" font-size="14">Xinjiang University</text>
+    <rect x="50" y="125" width="335" height="150" rx="12" fill="#11181F" stroke="#2E3942"/>
+    <rect x="432" y="125" width="335" height="150" rx="12" fill="#11181F" stroke="#2E3942"/>
+    <rect x="814" y="125" width="336" height="150" rx="12" fill="#11181F" stroke="#2E3942"/>
 
-      <rect x="330" y="112" width="250" height="170" rx="14" fill="#16212B" stroke="#34424E"/>
-      <text x="355" y="146" fill="#AEB9C2" font-size="13" font-weight="700">02</text>
-      <text x="355" y="180" fill="#F0F3F5" font-size="20" font-weight="700">Reproducibility</text>
-      <text x="355" y="214" fill="#C9D1D8" font-size="15">WinCLIP · AnomalyCLIP</text>
-      <text x="355" y="239" fill="#8F9BA5" font-size="14">APRIL-GAN · AF-CLIP</text>
+    <text x="76" y="154" fill="#B59A6A" font-size="12" font-weight="700" letter-spacing="1.2">GRADUATE RESEARCH</text>
+    <text x="458" y="154" fill="#B59A6A" font-size="12" font-weight="700" letter-spacing="1.2">AAAI 2027</text>
+    <text x="840" y="154" fill="#B59A6A" font-size="12" font-weight="700" letter-spacing="1.2">IEEE ICASSP 2027</text>
 
-      <rect x="610" y="112" width="250" height="170" rx="14" fill="#16212B" stroke="#34424E"/>
-      <text x="635" y="146" fill="#AEB9C2" font-size="13" font-weight="700">03</text>
-      <text x="635" y="180" fill="#F0F3F5" font-size="20" font-weight="700">Applied AI</text>
-      <text x="635" y="214" fill="#C9D1D8" font-size="15">AI agents · NLP workflows</text>
-      <text x="635" y="239" fill="#8F9BA5" font-size="14">Docker · automation · APIs</text>
+    <text x="76" y="190" fill="#ECE9E2" font-size="19" font-weight="700">Xinjiang University</text>
+    <text x="76" y="220" fill="#BFC7CD" font-size="15">Computer vision + time-series</text>
+    <text x="76" y="244" fill="#83919B" font-size="14">anomaly detection research</text>
 
-      <rect x="890" y="112" width="260" height="170" rx="14" fill="#16212B" stroke="#34424E"/>
-      <text x="915" y="146" fill="#AEB9C2" font-size="13" font-weight="700">04</text>
-      <text x="915" y="180" fill="#F0F3F5" font-size="20" font-weight="700">2027 Research Cycle</text>
-      <text x="915" y="214" fill="#C9D1D8" font-size="15">AAAI: first-author review</text>
-      <text x="915" y="239" fill="#8F9BA5" font-size="14">ICASSP: first-author work</text>
-    </g>
+    <text x="458" y="190" fill="#ECE9E2" font-size="19" font-weight="700">First-author manuscript</text>
+    <text x="458" y="220" fill="#BFC7CD" font-size="15">Under anonymous review</text>
+    <text x="458" y="244" fill="#83919B" font-size="14">Paper details kept private</text>
 
-    <text x="600" y="316" text-anchor="middle" fill="#83909B" font-size="14" letter-spacing="1.1">BUILD · MEASURE · VERIFY · PUBLISH</text>
+    <text x="840" y="190" fill="#ECE9E2" font-size="19" font-weight="700">First-author work</text>
+    <text x="840" y="220" fill="#BFC7CD" font-size="15">Causal time-series anomaly detection</text>
+    <text x="840" y="244" fill="#83919B" font-size="14">with Panpan Zheng</text>
+
+    <text x="50" y="307" fill="#74818B" font-size="12" letter-spacing="1.1">REPRODUCIBILITY · CAUSAL EVALUATION · FOUNDATION-MODEL ADAPTATION</text>
   </g>
 </svg>
