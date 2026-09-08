@@ -1,50 +1,57 @@
-## Hammad Ali Haider
+# Hammad Ali Haider
 
-<a href="https://linkedin.com/in/hammadhaideer">LinkedIn</a> / <a href="mailto:hammadhaideerr@stu.xju.edu.cn">Academic Email</a>
+**AI Engineer | M.S. Computer Science Researcher**  
+Computer Vision · Foundation Models · Time-Series Learning
 
----------------
+I am an M.S. candidate in Computer Science and Technology at **Xinjiang University, China**, working across applied AI engineering and machine learning research. My current work focuses on visual and time-series anomaly detection, reproducible model evaluation, and efficient adaptation of foundation models.
 
-### <ins>Interests & Active Research Areas</ins>
+I also build applied AI systems, including NLP workflows and agent-based applications. I care about experiments that can be reproduced, results that can be checked, and engineering work that is useful beyond a demo.
 
-#### <ins>Primary Research Areas</ins>
+## Current focus
 
-- Visual anomaly detection
-- Foundation models for industrial anomaly detection
-- Parameter-efficient adaptation and test-time adaptation
+- Computer vision and visual anomaly detection
+- Time-series anomaly detection with causal and online evaluation
+- Foundation-model adaptation, robustness, and test-time adaptation
+- Efficient learning and parameter-efficient fine-tuning
+- Applied AI agents and NLP systems
+- Reproducible experimentation, benchmarking, and model evaluation
 
-#### <ins>Secondary Research Areas</ins>
+## Selected work
 
-- Continual learning
-- Time-series anomaly detection with foundation models
+### Research and reproducibility
 
----------------
+| Repository | What it shows |
+|---|---|
+| [AF-CLIP Reproduced](https://github.com/hammadhaideer/af-clip-reproduced) | Zero-shot evaluation across six industrial anomaly-detection benchmarks, with source provenance, checkpoint verification, compatibility fixes, and category-level results. |
+| [APRIL-GAN Reproduced](https://github.com/hammadhaideer/april-gan-reproduced) | Official zero-shot evaluation on MVTec-AD and VisA; all reported aggregate metrics reproduced within 0.5 percentage points of the paper. |
+| [AnomalyCLIP Reproduced](https://github.com/hammadhaideer/anomalyclip-reproduced) | Paper-compatible zero-shot evaluation on MVTec-AD and VisA with sanitized logs, aggregate summaries, and repository verification. |
+| [WinCLIP Reproduced](https://github.com/hammadhaideer/winclip-reproduced) | Reference zero-shot results on MVTec-AD and VisA, with diagnostic implementation differences documented separately. |
 
-### <ins>Research</ins>
+These repositories are independent reproduction and evaluation work. Original methods, code, checkpoints, and datasets remain attributed to their respective authors and licenses.
 
-- Sep 2025 - Present: MSc, Computer Science and Technology, Xinjiang University. Supervisor: Panpan Zheng.
-- First-author paper under review (2026) in visual anomaly detection.
-- Research spans industrial, logical, and medical anomaly-detection settings using CLIP, DINOv2, SAM, LoRA, adapters, and visual prompts.
+### Applied AI engineering
 
----------------
+| Repository | What it shows |
+|---|---|
+| [AI Booking & Support Agent](https://github.com/hammadhaideer/ai-booking-agent) | An n8n and Google Gemini agent that answers business FAQs, keeps conversation context, captures leads, and books appointments through tool-based actions. |
 
-### <ins>Selected Public Research Repositories</ins>
+## Research
 
-- [AF-CLIP Reproduced](https://github.com/hammadhaideer/af-clip-reproduced) - zero-shot anomaly detection across six industrial benchmarks. Five paper-reported benchmarks match at the paper's one-decimal precision; MVTec-LOCO is included as an additional cross-dataset evaluation.
-- [APRIL-GAN Reproduced](https://github.com/hammadhaideer/april-gan-reproduced) - official zero-shot protocol on MVTec-AD and VisA. Maximum absolute paper delta is 0.5 percentage points across the reported aggregate metrics.
-- [AnomalyCLIP Reproduced](https://github.com/hammadhaideer/anomalyclip-reproduced) - paper-compatible final-layer evaluation with sanitized logs, aggregate summaries, source provenance, and repository verification.
-- [WinCLIP Reproduced](https://github.com/hammadhaideer/winclip-reproduced) - reference zero-shot results reproduced on MVTec-AD and VisA, with diagnostic implementation differences documented separately.
+- **Graduate Researcher**, Xinjiang University — computer vision and time-series anomaly detection.
+- **First-author manuscript under anonymous review at AAAI 2027.** Paper-specific details are intentionally omitted during review.
+- First-author work for **IEEE ICASSP 2027** on causal time-series anomaly detection, co-authored with Panpan Zheng.
 
-These repositories are independent reproduction and evaluation work. Upstream methods, code, checkpoints, and datasets remain attributed to their original authors and licenses.
+My broader research interests include efficient and adaptive foundation models, parameter-efficient fine-tuning, robust and test-time adaptation, model compression, efficient attention, and low-resource multilingual NLP.
 
----------------
+## Technical stack
 
-### <ins>Current Engineering Work</ins>
+**Programming:** Python · C/C++ · SQL · Bash  
+**Machine learning:** PyTorch · TensorFlow · Hugging Face Transformers · scikit-learn  
+**Computer vision:** CLIP · Vision Transformers · OpenCV · image classification · image segmentation · anomaly detection  
+**NLP:** BERT · text classification · sentiment analysis · NER · NLTK · spaCy  
+**Engineering:** Docker · Git · GitHub Actions · Linux · Jupyter · Flask · MongoDB Atlas · AWS S3 · LaTeX  
+**Applied AI:** Google Gemini · n8n · AI agents · workflow automation
 
-- Moving anomaly-detection models toward C++ and OpenCV deployment.
-- Building an ONNX to TensorRT pipeline with INT8 quantization and measured latency comparisons. Results will be published after the measurements are complete.
+## Connect
 
----------------
-
-### <ins>Tools</ins>
-
-Python · PyTorch · OpenCV · C/C++ · Hugging Face · Docker · Linux · Git
+[LinkedIn](https://www.linkedin.com/in/hammad-ali-haider/) · [Email](mailto:hammadhaideerr@gmail.com)
